@@ -1,4 +1,4 @@
-# Incident Dashboard (React)
+# Incident Dashboard (React + GO + Postgres)
 
 A simple React dashboard to submit and view incidents, with integration to a Go backend and Cypress E2E tests.
 
