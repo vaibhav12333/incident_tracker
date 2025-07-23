@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	db, err := sql.Open("postgres", "postgres://uday:Vgarg@123@localhost:7455/postgres?sslmode=disable")
+	db, err := sql.Open("postgres", "__ADD__CONN_STRING")
 	if err != nil {
 		panic("DB connection failed: " + err.Error())
 	}
