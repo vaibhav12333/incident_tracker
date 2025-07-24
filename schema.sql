@@ -58,21 +58,6 @@ ALTER TABLE public.incidents_id_seq OWNER TO uday;
 
 ALTER SEQUENCE public.incidents_id_seq OWNED BY public.incidents.id;
 
-
---
--- Name: urls; Type: TABLE; Schema: public; Owner: uday
---
-
-CREATE TABLE public.urls (
-    id character varying(255),
-    original_url text,
-    shortened_url text,
-    click_count text
-);
-
-
-ALTER TABLE public.urls OWNER TO uday;
-
 --
 -- Name: incidents id; Type: DEFAULT; Schema: public; Owner: uday
 --
