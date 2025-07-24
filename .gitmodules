@@ -1,0 +1,6 @@
+[submodule "submodules/your-submodule-repo"]
+	path = submodules/your-submodule-repo
+	url = https://github.com/vaibhav12333/tracker.git
+[submodule "client/tracker"]
+	path = client/tracker
+	url = https://github.com/vaibhav12333/tracker.git
