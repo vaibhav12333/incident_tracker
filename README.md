@@ -21,6 +21,11 @@ cd tracker
 npm install
 ```
 
+###Running both client and server
+```sh
+make start
+```
+
 ### Running the App
 ```sh
 npm start
